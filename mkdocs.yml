@@ -1,0 +1,25 @@
+site_name: Company Documentation
+site_url: https://vs-src.github.io/company-docs/
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  - Engineering:
+      - Architecture: engineering/architecture.md
+      - Development: engineering/development.md
+      - Deployment: engineering/deployment.md
+
+  - Operations:
+      - Incident Response: operations/incident-response.md
+      - Monitoring: operations/monitoring.md
+
+  - Product:
+      - Overview: product/overview.md
+      - Requirements: product/requirements.md
+
+  - Processes:
+      - Onboarding: processes/onboarding.md
+      - Release Process: processes/release-process.md
